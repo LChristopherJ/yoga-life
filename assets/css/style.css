@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100;1,200&display=swap');
 
 * {
     margin: 0;
@@ -6,6 +6,59 @@
     border: none;
 }
 
+
 body {
     font-family: 'Sevillana', cursive;
+    background-color: rgb(80, 204, 163);
+    font-weight: 200;
+
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;black
+    ;
+
+
+}
+
+#logo {
+    float: left;
+    text-transform: 300%;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+#nav-menu, #logo {
+    line-height: 90px;
+    color: white;
+}
+
+/* navigation links*/
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+
+
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: disc;
+    margin: 30px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid white;
 }
